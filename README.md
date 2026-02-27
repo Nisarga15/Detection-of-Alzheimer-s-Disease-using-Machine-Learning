@@ -89,3 +89,18 @@ CNN-based classification
 Optimized using Adam optimizer
 Evaluated using accuracy and loss metrics
 Achieved strong classification performance on validation dataset
+
+🎯 Future Improvements
+Deploy model to cloud (AWS / Azure)
+Improve accuracy using Transfer Learning
+Add Grad-CAM visualization
+Convert to REST API service
+
+👨‍💻 Author
+Nisarga V
+MS in Computer Science – Pace University
+Passionate about AI, Cloud Computing & Scalable Systems
+
+⚠️ Disclaimer
+This project is for educational and research purposes only and should not be used as a medical diagnostic tool.
+
