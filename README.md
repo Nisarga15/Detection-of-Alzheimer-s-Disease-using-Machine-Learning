@@ -36,3 +36,23 @@ This project uses Convolutional Neural Networks (CNN) to analyze MRI images and 
 ---
 
 ## 📂 Project Structure
+
+Detection-of-Alzheimer-s-Disease-using-Machine-Learning/
+│
+├── dataset/ # Training dataset (not uploaded if large)
+├── notebooks/ # Model development notebooks
+├── web_app_with_ml_backend/ # Flask web application
+├── demo/ # Demo resources
+├── sampleinput/ # Sample MRI images for testing
+├── test_images/ # Test dataset
+│
+├── Alzheimer's_classification.py # Main training script
+├── cnn.py # CNN architecture
+├── predict.py # Prediction script
+├── test.py # Model testing
+├── alzheimers.h5 # Trained model
+├── snapshot_1.hdf5 # Model checkpoint
+│
+├── train.csv
+├── ALZdataset.csv
+├── README.md
