@@ -56,3 +56,15 @@ Detection-of-Alzheimer-s-Disease-using-Machine-Learning/
 ├── train.csv
 ├── ALZdataset.csv
 ├── README.md
+
+
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/Detection-of-Alzheimer-s-Disease-using-Machine-Learning.git
+cd Detection-of-Alzheimer-s-Disease-using-Machine-Learning
