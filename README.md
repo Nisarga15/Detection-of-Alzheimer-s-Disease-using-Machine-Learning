@@ -68,3 +68,9 @@ Clone the repository:
 ```bash
 git clone https://github.com/your-username/Detection-of-Alzheimer-s-Disease-using-Machine-Learning.git
 cd Detection-of-Alzheimer-s-Disease-using-Machine-Learning
+
+Install dependencies:
+pip install -r requirements.txt
+🏋️‍♂️ Model Training
+To train the model:
+python Alzheimer's_classification.py
