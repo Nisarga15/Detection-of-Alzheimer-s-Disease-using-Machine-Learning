@@ -74,3 +74,10 @@ pip install -r requirements.txt
 🏋️‍♂️ Model Training
 To train the model:
 python Alzheimer's_classification.py
+
+🔎 Make Predictions
+To test on a new MRI image:
+python predict.py --image path_to_image
+🌐 Run Web Application
+cd web_app_with_ml_backend
+python app.py
