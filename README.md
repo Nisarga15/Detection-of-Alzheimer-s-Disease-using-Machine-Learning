@@ -81,3 +81,11 @@ python predict.py --image path_to_image
 🌐 Run Web Application
 cd web_app_with_ml_backend
 python app.py
+
+Open in browser:
+http://127.0.0.1:5000
+📊 Model Performance
+CNN-based classification
+Optimized using Adam optimizer
+Evaluated using accuracy and loss metrics
+Achieved strong classification performance on validation dataset
