@@ -1,109 +1,73 @@
-# 🧠 Detection of Alzheimer’s Disease using Machine Learning
-
-This project focuses on detecting Alzheimer's Disease using Deep Learning techniques applied to brain MRI images. The model classifies MRI scans into different stages of Alzheimer's progression.
-
-## 📌 Project Overview
-
-Alzheimer’s Disease is a progressive neurological disorder that affects memory and cognitive function. Early detection can significantly improve treatment planning and patient care.
-
-This project uses Convolutional Neural Networks (CNN) to analyze MRI images and classify them into predefined categories.
-
----
-
-## 🚀 Features
-
-- MRI image classification using CNN
-- Trained deep learning model (.h5)
-- Model evaluation and testing scripts
-- Prediction script for new images
-- Web application with ML backend
-- Jupyter notebooks for experimentation
-- Sample input images for testing
-
----
-
-## 🧠 Tech Stack
-
-- Python
-- TensorFlow / Keras
-- NumPy
-- Pandas
-- Matplotlib
-- OpenCV
-- Flask (for web app backend)
-- Jupyter Notebook
-
----
-
-## 📂 Project Structure
-
-Detection-of-Alzheimer-s-Disease-using-Machine-Learning/
-│
-├── dataset/ # Training dataset (not uploaded if large)
-├── notebooks/ # Model development notebooks
-├── web_app_with_ml_backend/ # Flask web application
-├── demo/ # Demo resources
-├── sampleinput/ # Sample MRI images for testing
-├── test_images/ # Test dataset
-│
-├── Alzheimer's_classification.py # Main training script
-├── cnn.py # CNN architecture
-├── predict.py # Prediction script
-├── test.py # Model testing
-├── alzheimers.h5 # Trained model
-├── snapshot_1.hdf5 # Model checkpoint
-│
-├── train.csv
-├── ALZdataset.csv
-├── README.md
+# Alzheimer’s Detection
+<!--
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](#)<br>
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Jeetu95/Brain-Tumor-Segmentation/graphs/commit-activity)
+[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/Jeetu95/Brain-Tumor-Segmentation/issues)
+-->
+![Alzheimer’s Detection](./readme/first_look.gif)
 
 
+## Table of Contents
 
----
 
-## ⚙️ Installation
+>- [Introduction](#Introduction)
+>- [Training](#Training)
+>- [Results](#Results)
+>- [Installation](#Installation)
+>- [How to Use](#How_to_Use)
 
-Clone the repository:
 
-```bash
-git clone https://github.com/your-username/Detection-of-Alzheimer-s-Disease-using-Machine-Learning.git
-cd Detection-of-Alzheimer-s-Disease-using-Machine-Learning
+### Introduction:
 
-Install dependencies:
-pip install -r requirements.txt
-🏋️‍♂️ Model Training
-To train the model:
-python Alzheimer's_classification.py
+We propose to implement a deep-learning framework that will segment the affected part of the brain in the MRI scans along with predicting severity of the alzheimer's disease.
 
-🔎 Make Predictions
-To test on a new MRI image:
-python predict.py --image path_to_image
-🌐 Run Web Application
+We are going to deploy the model with simple interactive user interface - **Alzheimer’s Detection** on web platform.
+
+The [demo_video](./demo/site_demo-2020-12-19_11.03.47.mp4)
+
+### Training
+
+- For Classification:
+
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1x57iiqQiPfG6mSG2dKtLMQkp1CaNDchy?usp=sharing#scrollTo=cKb2jNWrdTU9)
+
+- For Semantic Segmentation:
+
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1u-vSPhU_hwaZdwsuABK4xCRet_jEp0Tu?usp=sharing)
+
+### Results
+Final Mean Dice  Loss - 0.74461 for segmentation
+ROC AUC score - 0.946 for classification
+### Installation
+
+Fork this repository.
+
+Then move to the desired directory in your PC and type in the terminal
+
+```shell
+git clone https://github.com/chetanpandey1266/FallFest-VWXYZ.git
+
 cd web_app_with_ml_backend
+
+pip install -r requirements.txt
+```
+
+Now your webapp is ready to run on your localhost😄
+
+To run the web app
+
+```shell
+
 python app.py
+```
 
-Open in browser:
-http://127.0.0.1:5000
-📊 Model Performance
-CNN-based classification
-Optimized using Adam optimizer
-Evaluated using accuracy and loss metrics
-Achieved strong classification performance on validation dataset
+This will run your site on localhost
 
-🎯 Future Improvements
-Deploy model to cloud (AWS / Azure)
-Improve accuracy using Transfer Learning
-Add Grad-CAM visualization
-Convert to REST API service
+### How_to_Use
 
-👨‍💻 Author
-Nisarga V
-MS in Computer Science – Pace University
-Passionate about AI, Cloud Computing & Scalable Systems
 
-⚠️ Disclaimer
-This project is for educational and research purposes only and should not be used as a medical diagnostic tool.
+For demo refer this [video](./demo/site_demo-2020-12-19_11.03.47.mp4)
 
-Then:
-git add requirements.txt
-git commit -m "Added requirements file"
+
+
