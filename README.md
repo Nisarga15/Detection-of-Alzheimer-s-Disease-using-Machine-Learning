@@ -71,6 +71,8 @@ For demo refer this [video](./demo/site_demo-2020-12-19_11.03.47.mp4)
 
 
 **Author: **
-Nisarga Vishwamanjuswamy Master’s in Computer Science | Passionate about AI, Data Analytics, and Cloud Computing. 
+Nisarga Vishwamanjuswamy 
+Master’s in Computer Science | Passionate about AI, Data Analytics, and Cloud Computing. 
 
 Feel free to reach out if you need any assisance!! ⭐ If you found this project useful, consider giving it a star!
+Thank you!
